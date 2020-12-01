@@ -1,0 +1,13 @@
+#informacion{
+	position: absolute;
+	border:dashed 1px;
+	padding:1em;
+	overflow: hidden;
+	width: 10%;
+	right: 10%;
+}
+img{
+	float: right;
+	padding:1em;
+	width:23%;
+}

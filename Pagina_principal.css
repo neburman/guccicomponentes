@@ -1,0 +1,86 @@
+@font-face{
+    font-family: "BigShoulders";
+    src: url("fuentes/BigShouldersStencilText-Medium.ttf");
+}
+@font-face{
+    font-family: "Goldman";
+    src: url("fuentes/Goldman-Regular.ttf");
+}
+@font-face{
+    font-family: "Stalinist";
+    src: url("fuentes/StalinistOne-Regular.ttf");
+}
+body{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+header{
+    border: 2px solid green;
+}
+h1{
+    font-family: BigShoulders, sans-serif;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 250%;
+}
+header h1 img{
+    border: 2px solid red;
+    vertical-align: middle;
+    height: 7.5%;
+    width: 7.5%;
+    margin-left: 5%;
+}
+div#lista{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: lightgray
+}
+ul#Enlaces{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-radius: 5%;
+}
+ul#Enlaces li{
+    display: inline-block;
+    border: white 4px solid;
+    border-radius: 5%;
+    background-color: #333333;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 0.75em 2em;
+}
+ul#Enlaces li a{
+    text-decoration: none;
+    color: white;
+}
+ul#Enlaces li a:hover{
+    color: turquoise;
+}
+div{
+    border: red 1px dashed;
+}
+div#imagenes{
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+}
+div#destacados{
+    float: right;
+    width: 30%;
+}
+div#preguntas{
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 10%;
+    float: left;
+}
+div#novedades{
+    margin-top: 10%;
+    width: 35%;
+    float: left;
+}
+footer{
+    position: absolute;
+    bottom: 1px;
+    border: 1px dashed black;
+}

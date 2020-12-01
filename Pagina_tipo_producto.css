@@ -1,0 +1,75 @@
+body{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+div#lista{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: lightgray
+}
+ul#Enlaces{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-radius: 5%;
+}
+ul#Enlaces li{
+    display: inline-block;
+    border: white 4px solid;
+    border-radius: 5%;
+    background-color: #333333;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 0.75em 2em;
+}
+ul#Enlaces li a{
+    text-decoration: none;
+    color: white;
+}
+ul#Enlaces li a:hover{
+    color: turquoise;
+}
+article#principal{
+    border: red dashed 1px;
+    overflow: auto;
+    width: 70%;
+    max-height: 500px;
+    margin: 0;
+    float: left;
+}
+article#principal img{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 5%;
+    border: 1px dashed greenyellow;
+}
+article#principal div article{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    float: right;
+    border: black 1px dashed;
+    margin-right: 1.5%;
+}
+div article h2,p{
+    margin: 0;
+    padding: 0;
+}
+p.precio{
+    float: right;
+}
+div.tipoproducto{
+    width: 25%;
+    height: 70%;
+    border: solid 1px black;
+    float: right;
+}
+div.tipoproducto img{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 90%;
+    height: 60%;
+}
+p.descripcion{
+    margin: 5%
+}
