@@ -1,0 +1,8 @@
+article#img{
+    border: 1px solid black;
+    background-image: url("img/Sobremesa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    height: 400px;
+}
