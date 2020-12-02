@@ -170,7 +170,7 @@ div#destacados img{
     width: 100%;
     height: 100%;
 }
-h2#destacado{
+h2.destacado{
     font-family: BigShoulders, sans-serif;
     text-align: center;
     font-size: 200%;
@@ -180,7 +180,7 @@ h2#destacado{
     margin-inline-start: 0;
     margin: 0;
     border-bottom: 2px solid black;
-    font-size: 2.75vw;
+    font-size: 2.5vw;
 }
 div#preguntas{
     border: black 2px solid;
