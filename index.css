@@ -31,6 +31,7 @@ h1{
 header h1 a{
     text-decoration: none;
     color: #c3b14a;
+    font-size: 5vw;
 }
 header h1 a:hover{
     text-decoration: none;
@@ -62,12 +63,13 @@ ul#Enlaces li{
     border-radius: 5%;
     background-color: #333333;
     margin: 1.5% 2.5% 1.5% 2.5%;
-    padding: 0.75em 2em;
+    padding: 1% 2.25%;
     width: 7.5%;
 }
 ul#Enlaces li a{
     text-decoration: none;
     color: white;
+    font-size: 1vw;
 }
 ul#Enlaces li a:hover{
     color: turquoise;
@@ -151,10 +153,10 @@ input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
   opacity: 1;
   transition: opacity 3s;
 }
-p{
+p, dl{
     font-family: Goldman, sans-serif;
     text-align: justify;
-    font-size: 100%;
+    font-size: 0.8vw;
 }
 div#destacados{
     border: black 2px solid;
@@ -178,6 +180,7 @@ h2#destacado{
     margin-inline-start: 0;
     margin: 0;
     border-bottom: 2px solid black;
+    font-size: 3vw;
 }
 div#preguntas{
     border: black 2px solid;
@@ -205,6 +208,10 @@ footer div{
     width: 29.5%;
     float: left;
     border: black 2px solid;
+    font-family: Goldman, sans-serif;
+}
+footer div ul{
+    font-size: 0.8vw;
 }
 div#margenes{
     margin-right: 5.25%;
@@ -212,10 +219,4 @@ div#margenes{
 iframe{
     margin: 0;
     margin-top: 1%;
-}
-div#creditos{
-    font-family: Goldman, sans-serif;
-}
-div#margenes{
-    font-family: Goldman, sans-serif;
 }
