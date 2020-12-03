@@ -1,6 +1,6 @@
 article#img{
     border: 1px solid black;
-    background-image: url("imagenes/Placas.png");
+    background-image: url("../imagenes/Placas.png");
     background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
