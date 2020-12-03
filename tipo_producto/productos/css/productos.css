@@ -10,7 +10,7 @@ html{
     background-color: #2e528b;
 }
 body{
-    width: 85%;
+    width: 80%;
     margin: 0 auto 0 auto;
     background-color: whitesmoke;
     border: black 2px solid;
@@ -74,15 +74,13 @@ ul#Enlaces li a{
 ul#Enlaces li a:hover{
     color: turquoise;
 }
-section#contenido{
-    text-align: center;
-    margin-top: 0%;
-    border: 1px solid black;
-    margin: 1% auto ;
+article#img{
+    margin: 0;
+    padding: 0 1% 1% 1%;
 }
-img{
-    width: 30%;
-    height: 400px;
+article#img img{
+    width: 100%;
+    border: 2px solid black;
 }
 article#descripcion h2{
     font-family: BigShoulders, sans-serif;
@@ -93,5 +91,13 @@ article#descripcion h2{
     margin-block-start: 0;
     margin-inline-start: 0;
     margin: 0;
+    border-top: 2px solid black;
     border-bottom: 2px solid black;
+}
+article#descripcion p{
+    font-family: Goldman, sans-serif;
+    text-align: justify;
+    font-size: 1vw;
+    padding-left: 1%;
+    padding-right: 1%;
 }
