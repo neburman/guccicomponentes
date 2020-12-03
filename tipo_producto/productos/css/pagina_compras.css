@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Goldman";
-    src: url("Fuentes/Goldman-Regular.ttf");
+    src: url("../../../fuentes/Goldman-Regular.ttf");
 }
 body{
     width: 80%;
