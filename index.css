@@ -80,7 +80,7 @@ div.slider{
     border: 1px solid #555;
     position: relative;
     display:inline-block;
-    background-image: url(Imagenes/fondo_slider.png);
+    background-image: url(imagenes/fondo_slider.png);
     background-size: contain;
     margin-left: 1%;
     margin-bottom: 1%;
