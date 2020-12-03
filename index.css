@@ -1,10 +1,10 @@
 @font-face{
     font-family: "BigShoulders";
-    src: url("Fuentes/BigShouldersStencilText-Medium.ttf");
+    src: url("fuentes/BigShouldersStencilText-Medium.ttf");
 }
 @font-face{
     font-family: "Goldman";
-    src: url("Fuentes/Goldman-Regular.ttf");
+    src: url("fuentes/Goldman-Regular.ttf");
 }
 html{
     background-color: #2e528b;

@@ -1,0 +1,140 @@
+@font-face{
+    font-family: "BigShoulders";
+    src: url("../fuentes/BigShouldersStencilText-Medium.ttf");
+}
+@font-face{
+    font-family: "Goldman";
+    src: url("../fuentes/Goldman-Regular.ttf");
+}
+html{
+    background-color: #2e528b;
+}
+body{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    background-color: whitesmoke;
+    border: black 2px solid;
+    font-family: Golman, sans-serif;
+}
+header{
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    background-color: #335644;
+    margin-bottom: 1%;
+}
+h1{
+    font-family: BigShoulders, sans-serif;
+    text-align: center;
+    font-size: 5vw;
+    background-color: #c72030;
+    color: #c3b14a;
+}
+header h1 a{
+    text-decoration: none;
+    color: #c3b14a;
+    font-size: 5vw;
+}
+header h1 a:hover{
+    text-decoration: none;
+    color: black;
+}
+header h1 img{
+    vertical-align: middle;
+    height: 15%;
+    width: 15%;
+    margin-left: 5%;
+}
+div#lista{
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #335644;
+    margin-bottom: 1%;
+}
+ul#Enlaces{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-radius: 5%;
+}
+ul#Enlaces li{
+    display: inline-block;
+    border: white 4px solid;
+    border-radius: 5%;
+    background-color: #333333;
+    margin: 1.5% 2.5% 1.5% 2.5%;
+    padding: 1% 2.25%;
+    width: 7.5%;
+}
+ul#Enlaces li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
+ul#Enlaces li a:hover{
+    color: turquoise;
+}
+div#overflow{
+    overflow: hidden;
+}
+article#principal{
+    border: 2px solid black;
+    overflow: auto;
+    width: 70%;
+    max-height: 500px;
+    margin: 0;
+    float: left;
+    margin-left: 1%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+article#principal img{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+article#principal div article{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    float: right;
+    border: black 2px solid;
+    margin-right: 1.5%;
+}
+div article h2,p{
+    margin: 0;
+    padding: 0;
+}
+div article h2{
+    font-size: 2vw;
+}
+div article p{
+    font-size: 1.5vw;
+}
+p.precio{
+    float: right;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+div.tipoproducto{
+    width: 25%;
+    height: 70%;
+    border: solid 2px black;
+    float: right;
+    margin-right: 1%;
+    font-size: 1vw;
+}
+div.tipoproducto img{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 60%;
+    border: 2px solid black;
+}
+p.descripcion{
+    margin: 5%
+}
