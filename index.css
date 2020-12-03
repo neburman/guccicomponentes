@@ -220,3 +220,7 @@ iframe{
     margin: 0;
     margin-top: 1%;
 }
+div#creditos{
+    float: right;
+    margin-right: 1%;
+}
